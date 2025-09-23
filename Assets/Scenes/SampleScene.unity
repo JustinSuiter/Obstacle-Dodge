@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 44714976}
   - component: {fileID: 44714975}
   - component: {fileID: 44714974}
+  - component: {fileID: 44714978}
   m_Layer: 0
   m_Name: Obstacle 2
   m_TagString: Untagged
@@ -157,7 +158,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.04, y: 1.04, z: 1.04}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &44714975
 MeshRenderer:
@@ -230,6 +231,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1542343217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &44714978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44714973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ffbded10ba3444a1cfc48519302f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &235847480
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,8 +255,9 @@ GameObject:
   - component: {fileID: 235847483}
   - component: {fileID: 235847482}
   - component: {fileID: 235847481}
+  - component: {fileID: 235847485}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Obstacle 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,7 +282,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.04, y: 1.04, z: 1.04}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &235847482
 MeshRenderer:
@@ -334,13 +348,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235847480}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.56, y: 4.04, z: 4.7}
-  m_LocalScale: {x: 2.6877863, y: 7.7531886, z: 2.6877863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.46, y: 5.07, z: -6.63}
+  m_LocalScale: {x: 2.6877863, y: 17.421331, z: 2.6877863}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1542343217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &235847485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235847480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ffbded10ba3444a1cfc48519302f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &246501457
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +379,7 @@ GameObject:
   - component: {fileID: 246501461}
   - component: {fileID: 246501460}
   - component: {fileID: 246501459}
+  - component: {fileID: 246501462}
   m_Layer: 0
   m_Name: Wall (3)
   m_TagString: Untagged
@@ -452,6 +479,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246501457}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &246501462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246501457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ffbded10ba3444a1cfc48519302f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,6 +800,7 @@ GameObject:
   - component: {fileID: 485184443}
   - component: {fileID: 485184442}
   - component: {fileID: 485184441}
+  - component: {fileID: 485184444}
   m_Layer: 0
   m_Name: Wall (1)
   m_TagString: Untagged
@@ -860,6 +900,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485184439}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &485184444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485184439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ffbded10ba3444a1cfc48519302f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,6 +973,7 @@ GameObject:
   - component: {fileID: 905786836}
   - component: {fileID: 905786835}
   - component: {fileID: 905786834}
+  - component: {fileID: 905786837}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -1020,6 +1073,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905786832}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &905786837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905786832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ffbded10ba3444a1cfc48519302f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1451196778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1342,7 @@ Transform:
   - {fileID: 1812434297}
   - {fileID: 44714977}
   - {fileID: 2077595963}
+  - {fileID: 235847484}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1552152260
@@ -1291,6 +1357,7 @@ GameObject:
   - component: {fileID: 1552152264}
   - component: {fileID: 1552152263}
   - component: {fileID: 1552152262}
+  - component: {fileID: 1552152265}
   m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -1390,6 +1457,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552152260}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1552152265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552152260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ffbded10ba3444a1cfc48519302f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1812434293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1402,6 +1481,7 @@ GameObject:
   - component: {fileID: 1812434296}
   - component: {fileID: 1812434295}
   - component: {fileID: 1812434294}
+  - component: {fileID: 1812434298}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -1428,7 +1508,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.04, y: 1.04, z: 1.04}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1812434295
 MeshRenderer:
@@ -1501,6 +1581,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1542343217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1812434298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812434293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ffbded10ba3444a1cfc48519302f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1973457520
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,8 +1605,9 @@ GameObject:
   - component: {fileID: 1973457524}
   - component: {fileID: 1973457523}
   - component: {fileID: 1973457522}
-  - component: {fileID: 1973457521}
   - component: {fileID: 1973457526}
+  - component: {fileID: 1973457527}
+  - component: {fileID: 1973457521}
   m_Layer: 0
   m_Name: Marlon The Player
   m_TagString: Player
@@ -1654,6 +1747,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &1973457527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973457520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4649dc33fff1ac64da3dad29b8a84478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scorer
 --- !u!1 &2077595959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,6 +1771,7 @@ GameObject:
   - component: {fileID: 2077595962}
   - component: {fileID: 2077595961}
   - component: {fileID: 2077595960}
+  - component: {fileID: 2077595964}
   m_Layer: 0
   m_Name: Obstacle 3
   m_TagString: Untagged
@@ -1692,7 +1798,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.04, y: 1.04, z: 1.04}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2077595961
 MeshRenderer:
@@ -1765,6 +1871,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1542343217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2077595964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077595959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ffbded10ba3444a1cfc48519302f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1775,5 +1893,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1451196782}
   - {fileID: 1973457525}
-  - {fileID: 235847484}
   - {fileID: 1542343217}

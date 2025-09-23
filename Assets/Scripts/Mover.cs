@@ -11,13 +11,7 @@ public class Mover : MonoBehaviour
 
     void Update()
     {
-        float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
-        float yValue = 0f;
-        float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-
-        transform.Translate(xValue, yValue, zValue);
-
-
+        MovePlayer();
     }
 
     void PrintInstruction()
@@ -27,5 +21,16 @@ public class Mover : MonoBehaviour
         Debug.Log("Dodge the obstacles and dont run into walls or you lose!");
     }
 
-    
+    void MovePlayer()
+    {
+        float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+        float yValue = 0f;
+        float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+
+        transform.Translate(xValue, yValue, zValue);
+
+    }
+
+
+
 }
