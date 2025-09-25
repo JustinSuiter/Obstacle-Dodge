@@ -364,14 +364,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jjmin\OneDrive\Documents\Repos\Obstacle-Dodge
+  m_LastProjectPath: C:\Users\02JUSTIN.SUITER\JustinSuiter\Repositories\Obstacle
+    Dodge
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86b60000
-    m_LastClickedID: 46726
-    m_ExpandedIDs: 000000007eb6000000ca9a3bffffff7f
+    m_SelectedIDs: a4b30000
+    m_LastClickedID: 45988
+    m_ExpandedIDs: 0000000068b2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +401,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000068b20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -531,7 +532,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6f1fffff4b40000
+      m_ExpandedIDs: e0faffff00b20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1149,9 +1150,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -6.3490267, y: 8.994582, z: -9.1311655}
+    m_Target: {x: 2.6609054, y: 8.318667, z: 9.721937}
     speed: 2
-    m_Value: {x: -6.3490267, y: 8.994582, z: -9.1311655}
+    m_Value: {x: 2.6609054, y: 8.318667, z: 9.721937}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1197,13 +1198,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.007873257, y: -0.75451845, z: 0.009055168, w: 0.656172}
+    m_Target: {x: -0.11879326, y: -0.7406496, z: 0.13591503, w: -0.6472472}
     speed: 2
-    m_Value: {x: 0.007873242, y: -0.754517, z: 0.009055151, w: 0.6561707}
+    m_Value: {x: -0.119759396, y: -0.74041694, z: 0.13702077, w: -0.64704394}
   m_Size:
-    m_Target: 12.869039
+    m_Target: 3.0579026
     speed: 2
-    m_Value: 12.869039
+    m_Value: 3.2019923
   m_Ortho:
     m_Target: 0
     speed: 2
