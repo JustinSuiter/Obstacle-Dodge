@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 562
     height: 671
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 119
+  controlID: 51
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -364,14 +364,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jjmin\OneDrive\Documents\Repos\Obstacle-Dodge
+  m_LastProjectPath: C:\Users\02JUSTIN.SUITER\JustinSuiter\Repositories\Obstacle
+    Dodge
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b8b30000
-    m_LastClickedID: 46008
-    m_ExpandedIDs: 000000007eb2000000ca9a3bffffff7f
+    m_SelectedIDs: f4b30000
+    m_LastClickedID: 46068
+    m_ExpandedIDs: 00000000bab2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +401,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007eb20000
+    m_ExpandedIDs: 00000000bab20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -529,9 +530,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ba4d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 1afbffff08b20000
+      m_ExpandedIDs: 0cfbffff3ab20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1149,9 +1150,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.03802458, y: 3.3998435, z: -7.3108816}
+    m_Target: {x: 3.982978, y: -10.780536, z: -23.007938}
     speed: 2
-    m_Value: {x: -0.03802458, y: 3.3998435, z: -7.3108816}
+    m_Value: {x: 3.982978, y: -10.780536, z: -23.007938}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1197,13 +1198,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.13667661, y: 0.8239931, z: -0.22433394, w: -0.5020273}
+    m_Target: {x: -0.031901523, y: -0.9445233, z: 0.31248075, w: -0.096390836}
     speed: 2
-    m_Value: {x: -0.13667646, y: 0.8239922, z: -0.2243337, w: -0.50202674}
+    m_Value: {x: -0.031755697, y: -0.94495445, z: 0.3110516, w: -0.09643485}
   m_Size:
-    m_Target: 20.793816
+    m_Target: 28.703587
     speed: 2
-    m_Value: 20.793816
+    m_Value: 27.467546
   m_Ortho:
     m_Target: 0
     speed: 2
