@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 562
     height: 671
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -352,7 +352,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\02JUSTIN.SUITER\JustinSuiter\Repositories\Obstacle
     Dodge
@@ -370,8 +370,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4b30000
-    m_LastClickedID: 46068
+    m_SelectedIDs: 18c30000
+    m_LastClickedID: 49944
     m_ExpandedIDs: 00000000bab2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -530,9 +530,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba4d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0cfbffff3ab20000
+      m_ExpandedIDs: 18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1150,9 +1150,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 3.982978, y: -10.780536, z: -23.007938}
+    m_Target: {x: 2.139626, y: 20.935509, z: -16.329058}
     speed: 2
-    m_Value: {x: 3.982978, y: -10.780536, z: -23.007938}
+    m_Value: {x: 2.139626, y: 20.935509, z: -16.329058}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1198,20 +1198,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.031901523, y: -0.9445233, z: 0.31248075, w: -0.096390836}
+    m_Target: {x: 0.29722682, y: 0.12558196, z: -0.03943873, w: 0.94574517}
     speed: 2
-    m_Value: {x: -0.031755697, y: -0.94495445, z: 0.3110516, w: -0.09643485}
+    m_Value: {x: 0.29862958, y: 0.12551613, z: -0.039625034, w: 0.94524914}
   m_Size:
-    m_Target: 28.703587
+    m_Target: 13.688929
     speed: 2
-    m_Value: 27.467546
+    m_Value: 14.333957
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.5402294
-    m_SpeedNormalized: 0.76999974
+    m_Speed: 1.2403798
+    m_SpeedNormalized: 0.6199999
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
