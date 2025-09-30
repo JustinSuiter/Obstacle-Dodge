@@ -4,13 +4,19 @@ public class FlyAtPlayer : MonoBehaviour
 {
     [SerializeField] Transform player;
     [SerializeField] float speed = 0.8f;
+
     Vector3 playerPos;
+
+
+    void Awake()
+    {
+        gameObject.SetActive(false);
+    }
 
 
     void Start()
     {
         playerPos = player.transform.position;
-        
     }
 
 
